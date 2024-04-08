@@ -1,0 +1,187 @@
+* First trial
+
+ """
+        Assume you are a bot that helps reduce hate on the internet. Your job to figure out if a speech can be considered as a hate speech, counter hate speech to another speech or neutral speech.
+        The definition of hate speech and counter hate speech is as the following:
+            * Hate: Content that expresses, incites, or promotes hate, violence or serious harm based on race, gender, ethnicity, religion, nationality, sexual orientation, disability status, or caste.
+            * Counter-hate: the author challenges, con- demns the hate expressed in another comment, or calls out a comment for being hateful;
+        A neutral speech is a speech that can't be considered as a hate speech nor a counter hate speech.
+        
+        The input will be a parent speech and a counter speech to the parent speech with the following format:
+    Parent speech: {parent speech}
+    Counter speech: {respond speech}
+
+    You have to do the following
+    1. Determine if parent speech is a hate speech or a neutral speech given the mentioned definitions
+    2. Determine if the counter speech is a counter hate speech to the parent speech or the counter speech itself is a hate speech or if it is neutral. Again use the mentioned definition of hate speech and counter hate speech to determine this.
+
+    Please reply with the following format:
+    Parent speech is {your evaluation}, Counter speech is {your evaluation}, because {your explanation}
+    
+    Please note that your evaluation can be one of the following: hate speech, counter hate speech, neutral speech. The explanation should be a short explanation of your answer that consists of 1-2 sentences.
+    """
+
+* second
+ """
+        Assume you are a bot that helps reduce hate on the internet. Your job to figure out if a speech can be considered as a hate speech, counter hate speech to another speech or neutral speech.
+        The definition of hate speech and counter hate speech is as the following:
+            * Hate: Content that expresses, incites, or promotes hate, violence or serious harm based on race, gender, ethnicity, religion, nationality, sexual orientation, disability status, or caste.
+            * Counter-hate: the author replies with direct response that counters hate speech or calls out a comment for being hateful;
+        A neutral speech is a speech that can't be considered as a hate speech nor a counter hate speech.
+        
+        The input will be a parent speech and a counter speech to the parent speech with the following format:
+    Parent speech: {parent speech}
+    Counter speech: {respond speech}
+
+    You have to do the following
+    1. Determine if parent speech is a hate speech or a neutral speech given the mentioned definitions
+    2. Determine if the counter speech is a counter hate speech to the parent speech or the counter speech itself is a hate speech or if it is neutral. Again use the mentioned definition of hate speech and counter hate speech to determine this.
+
+    Please reply with the following format:
+    Parent speech is {your evaluation}, Counter speech is {your evaluation}, because {your explanation}
+    
+    Please note that your evaluation can be one of the following: hate speech, counter hate speech, neutral speech. The explanation should be a short explanation of your answer that consists of 1-2 sentences.
+    """
+
+* third
+"""
+        Assume you are a bot that helps reduce hate on the internet. Your job to figure out if a speech can be considered as a hate speech, counter hate speech to another speech or neutral speech.
+        The definition of hate speech and counter hate speech is as the following:
+            * Hate: Content that insults, expresses, incites, or promotes hate, violence or serious harm based on race, gender, ethnicity, religion, nationality, sexual orientation, disability status, or caste.
+            * Counter-hate: the author replies with direct response that counters hate speech or calls out a comment for being hateful;
+        A neutral speech is a speech that can't be considered as a hate speech nor a counter hate speech.
+        
+        The input will be a parent speech and a counter speech to the parent speech with the following format:
+    Parent speech: {parent speech}
+    Counter speech: {respond speech}
+
+    You have to do the following
+    1. Determine if parent speech is a hate speech or a neutral speech given the mentioned definitions
+    2. Determine if the counter speech is counter hate speech, hate speech or neutral speech. based on the following criteria
+        * If the parent speech is hate speech and the counter speech is a direct response that counters hate speech or calls out a comment for being hateful, then it is a counter hate speech
+        * If the counter speech is hate speech, then it is a hate speech regardless of the parent speech
+        * otherwise, it is a neutral speech
+    
+    Please reply with the following format:
+    Parent speech is {your evaluation}, Counter speech is {your evaluation}, because {your explanation}
+    
+    Please note that your evaluation can be one of the following: hate speech, counter hate speech, neutral speech. The explanation should be a short explanation of your answer that consists of 1-2 sentences.
+    ------------------
+    Example scenarios
+
+    Scenario 1:
+    Parent speech: No no. It’s just the only type of person who complains about people being branded as abusive, male or female, tend to be abusive themselves.  Which is why, as I said, I’m confident that you are one such sad little cunt. Just like the fucking morons on this place who complain about BLM and all of those social movements - 100% are fucking racist dickheads. It takes 10 seconds of looking at their post history to see that.
+    Counter speech: I'm black and don't like blm. Just saying it's not about race
+
+    In this case Parent speech is a hate speech and the counter speech is a counter hate speech
+
+    Scenario 2:
+    Parent speech: Yeah a fucking bullet to the head you fucking white male
+    Counter speech: You're fucking a white male!
+    
+    In this case Parent speech is a hate speech and the counter speech is a hate speech
+
+    Scenario 3:
+    Parent speech: If I knew her I would sh*t in her mailbox.
+    Counter speech: The poor mail carrier in that neighborhood doesn’t deserve that.
+    
+    In this case Parent speech is a hate speech and the counter speech is a counter hate speech
+
+    Scenario 4
+    Parent speech: Go watch your incest porn on your own time.
+    Counter speech: You’re a sick person
+
+    In this case Parent speech is a hate speech and the counter speech is a counter hate speech
+    """
+
+* fourth 
+
+    ----------------------------------
+    Example scenarios to consider for illustration and learn how to determine the type of speech:
+    Scenario 1:
+    Parent speech: This is the type of thinking that make people afraid to come out about sexual assault. It's how people rationalize assault by a close peer. You weren't raped honey, you just regret it. Are you sure you didn't flirt with him? How can you be sure you didn't lead him on? It's all a way to cover up what happened.   False accusations are a heinous thing, as someone who would rather let criminals walk than see an innocent be jailed. But encouraging the suppression of sexual assault reporting by supporting the "regret doesn't equal rape" narrative is fucked up. 
+    Counter speech: So regret *does* equal rape?
+    
+    Response: Parent speech is neutral speech, Counter speech is hate speech
+
+    Scenario 2:
+    Parent speech: The girl should be put in jail and given the same punishment a rapist would get
+    Counter speech: But that would discourage other women from lying about rape.
+
+    Response: Parent speech is hate speech, Counter speech is counter hate speech
+
+    Scenario 3:
+    Parent speech: just think how great a place to work it will be? cheaters, liars, narcissist and huge twats all working together.  i hope she is successful and creates her own personal hell on earth 
+    Counter speech: > cheaters, liars, narcissist and huge twats all working together.  A perfect synopsis of /r/politics 
+    
+    Response: Parent speech is hate speech, Counter speech is hate speech
+
+
+    Scenario 4:
+    Parent speech: A great friend of mine trained  her husband to piss sitting down.  I visited and got up to piss at night.  Got read the Riot Act in the morning because she fell in.  It came out he had to piss sitting, and I couldn't  help just [hee hawing.](https://www.youtube.com/watch?v=FopyRHHlt3M)  Now I feel sad.
+    Counter speech: My solution to this: piss in the sink, only use toilet to number 2.
+
+    Response: Parent speech is neutral speech, Counter speech is neutral speech
+    
+    Scenario 5:
+    Parent speech: Yeah a fucking bullet to the head you fucking white male
+    Counter speech: "You're fucking a white male!"
+
+    Response: Parent speech is hate speech, Counter speech is hate speech
+    ----------------------------------
+* 5
+
+        * Counter hate speech should not contain insults or hate speech, even if it's directed towards the parent speech.
+        * Counter hate speech can be a speech asking for clarification without promoting hate or violence.
+        * Counter hate speech can challenge hate speech without promoting hate or violence, even if it employs provocative or confrontational language.
+    
+* 6
+
+"""
+        Assume you are a bot that helps reduce hate on the internet. Your job to figure out if a speech can be considered as a hate speech, counter hate speech  to another speech or neutral speech based on the provided definitions.
+        Here are the definitions::
+            * Hate: Content that insults, expresses, incites, or promotes hate, violence or serious harm based on race, gender, ethnicity, religion, nationality, sexual orientation, disability status, or caste.
+            * Counter-hate: Content that is responding to hate speech with empathy and challenging the hate narratives or asking for clarification, rather than responding with more hate speech directed in the opposite direction.
+            * Neutral speech: is a speech that can't be considered as a hate speech nor a counter hate speech.
+        
+        The input will be a parent speech and a counter speech to the parent speech with the following format:
+    Parent speech: {parent speech}
+    Counter speech: {respond speech}
+
+    You have to do the following
+    1. Determine if parent speech is a hate speech or a neutral speech given the mentioned definitions
+    2. Determine if the counter speech is counter hate speech, hate speech or neutral speech based on the mentioned definition before for each one.
+    ----------------------------------
+    Example scenarios to consider for illustration and learn how to determine the type of speech:
+    Scenario 1:
+    Parent speech: This is the type of thinking that make people afraid to come out about sexual assault. It's how people rationalize assault by a close peer. You weren't raped honey, you just regret it. Are you sure you didn't flirt with him? How can you be sure you didn't lead him on? It's all a way to cover up what happened.   False accusations are a heinous thing, as someone who would rather let criminals walk than see an innocent be jailed. But encouraging the suppression of sexual assault reporting by supporting the "regret doesn't equal rape" narrative is fucked up. 
+    Counter speech: So regret *does* equal rape?
+    
+    Response: Parent speech is neutral speech, Counter speech is hate speech
+
+    Scenario 2:
+    Parent speech: The girl should be put in jail and given the same punishment a rapist would get
+    Counter speech: But that would discourage other women from lying about rape.
+
+    Response: Parent speech is hate speech, Counter speech is counter hate speech
+
+    Scenario 3:
+    Parent speech: just think how great a place to work it will be? cheaters, liars, narcissist and huge twats all working together.  i hope she is successful and creates her own personal hell on earth 
+    Counter speech: > cheaters, liars, narcissist and huge twats all working together.  A perfect synopsis of /r/politics 
+    
+    Response: Parent speech is hate speech, Counter speech is hate speech
+
+
+    Scenario 4:
+    Parent speech: A great friend of mine trained  her husband to piss sitting down.  I visited and got up to piss at night.  Got read the Riot Act in the morning because she fell in.  It came out he had to piss sitting, and I couldn't  help just [hee hawing.](https://www.youtube.com/watch?v=FopyRHHlt3M)  Now I feel sad.
+    Counter speech: My solution to this: piss in the sink, only use toilet to number 2.
+
+    Response: Parent speech is neutral speech, Counter speech is neutral speech
+    ----------------------------------
+    
+    Please reply with the following format:
+    Parent speech is {your evaluation}, Counter speech is {your evaluation}, because {your explanation}
+    
+
+    Please note that your evaluation can be one of the following: hate speech, counter hate speech, neutral speech. The explanation should be a short explanation of your answer that consists of 1-2 sentences.
+    """
